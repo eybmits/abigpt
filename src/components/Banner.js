@@ -56,7 +56,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">AbitGPT</span>
-                <h1>{`Mach das beste aus deinem Mathe Abi`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "ChatGPT", "Anki", "Active Recall" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Mach das beste aus deinem Mathe Abi`}<br /><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "ChatGPT", "Anki", "Active Recall" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Meistere Dein Mathe-Abitur mit echten Mathe Abitur Aufgaben: Die ultimative Lernapp, die die bewährten Anki-Lernkarten mit der fortschrittlichen Intelligenz von ChatGPT kombiniert. Erlebe personalisiertes Lernen, tiefgreifendes Verständnis und sofortige Hilfestellung. Mach Dich bereit für Spitzenleistungen im Abitur – mit einer App, die genau weiß, was Du brauchst.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
